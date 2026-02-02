@@ -16,7 +16,7 @@ await channel.send({
       type: 1, // Container
       components: [
         { type: 10, content: 'قسم أول: معلومات الحساب.' },
-        { type: 14 }, // Separator
+        { type: 14 }, // Separator (Small)
         { type: 10, content: 'قسم ثاني: إعدادات الخصوصية.' }
       ]
     }
@@ -24,7 +24,21 @@ await channel.send({
 });
 ```
 
-## نصائح
+## أحجام الفاصل (Small / Large)
 
-- لا تكثر الفواصل بدون داعي.
-- الأفضل تستخدمه بين مجموعات مختلفة من المعلومات.
+```js
+await channel.send({
+  components: [
+    {
+      type: 1,
+      components: [
+        { type: 10, content: 'عنوان.' },
+        { type: 14, spacing: 1 }, // Small
+        { type: 10, content: 'تفاصيل قصيرة.' },
+        { type: 14, spacing: 2 }, // Large
+        { type: 10, content: 'قسم جديد.' }
+      ]
+    }
+  ]
+});
+```

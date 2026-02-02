@@ -35,8 +35,3 @@ client.once('ready', async () => {
 
 client.login(process.env.BOT_TOKEN);
 ```
-
-## نصائح
-
-- خلك واضح ومباشر.
-- لا تطوّل النص كثير.

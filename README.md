@@ -1,6 +1,6 @@
 # Discord Components V2 بالعربي
 
-مرجع عربي عملي لـ **Discord Components V2 (Display Components)** باستخدام discord.js. هنا بتلاقي شرح واضح، أمثلة صغيرة جاهزة للنسخ، ووصفات (Recipes) مفيدة عشان تبني واجهات حلوة وسهلة للعرب.
+مرجع عربي عملي لـ **Discord Components V2 (Display Components)** باستخدام discord.js. هنا بتلاقي شرح واضح، أمثلة صغيرة جاهزة للنسخ، وأمثلة جاهزة مفيدة عشان تبني واجهات حلوة وسهلة للعرب.
 
 > كل الأمثلة بدون أي Tokens أو IDs حقيقية. استخدم متغيرات بيئة وملف `.env` في مشروعك الخاص.
 
@@ -14,7 +14,7 @@
 - `05-media-gallery/` — Media Gallery
 - `06-select-menu/` — Select Menu
 - `07-container/` — Container
-- `08-recipes/` — وصفات جاهزة (Settings Panel, Profile Card)
+- `08-recipes/` — أمثلة جاهزة (Settings Panel, Profile Card)
 
 ## كيف تستخدم الريبو؟
 
@@ -31,7 +31,6 @@
 ## ملاحظات مهمة
 
 - Display Components تعتمد على هيكلية واضحة، لذلك استخدم `Container` لجمع العناصر.
-- خلك بسيط: نص قصير + فصل واضح + أزرار محدودة = تجربة أرتب.
 
 ## الحقوق
 
